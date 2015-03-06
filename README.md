@@ -59,3 +59,18 @@ The basic metrics we will gather will be
  * Mean msg/s (obviously derived from total msg / total time). When aggregated with other test data we should be able to [visualize](http://leecampbell.blogspot.co.uk/2014/01/replaysubject-performance-improvements.html)
  * [Latency histogram](https://github.com/HdrHistogram/HdrHistogram)
  * Total cost to run test (in $US)
+
+##Planned products to include in test suite
+Our initial approach will only include "free" software.
+Products that require a licence (except perhaps products with trial licences) will not be an initial priority.
+These include but not limited to Tobco products, Universal Messaging, Oracle Coherence
+
+ * Reactive distrubuted data stored
+   * [Kafka](http://kafka.apache.org/) _as an EventStore_
+   * [Redis](http://redis.io/)
+   * [CouchDB](http://couchdb.apache.org/)
+   * [EventStore](geteventstore.com)
+ * Message Queues 
+   * [ActiveMq](http://activemq.apache.org/)
+   * [RabbitMq](http://www.rabbitmq.com/)
+   * [0mq](http://zeromq.org/)
